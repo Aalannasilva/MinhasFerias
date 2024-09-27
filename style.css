@@ -97,10 +97,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	
-}
-
 form {
     margin: 40px 40px;
 }
@@ -145,13 +141,13 @@ table {
 }
 
 thead {
-	background: #555555;
-	color: white;
+	background: #f04695ad;
+	color: rgba(228, 97, 169, 0.432);
 	font-weight: bold;
 }
 
 td, th {
-	border: 1px solid #000000;
+	border: 1px solid #db207d46;
 	padding: 8px 15px;
 }
 
