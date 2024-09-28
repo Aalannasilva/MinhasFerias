@@ -1,10 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
-body{
-	
-}
 	
 #banner {
   width: 100%;
@@ -58,4 +54,5 @@ ul {
 
 .imagem-beneficios{
   width: 50%;
+}
 }
