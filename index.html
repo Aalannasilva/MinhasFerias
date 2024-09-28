@@ -1,26 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Confeitaria Pão Doce</title>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Produtos - Confeitaria Pão Doce</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
-    <header>
-        <div class:"caixa">
-            <h1><img src="confeitaria.png"</h1>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="produtos.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-</body>
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<ul class="produtos">
+				<li>
+					<h2>Cabelo</h2>
+					<img src="bolo.jpg">
+					<p class="produto-descricao">bolo chocoreja, uma explosão de sabor! Recheado com chocolate preto e cereja.</p>
+					<p class="produto-preco">R$ 120,00</p>
+				</li>
+				<li>
+					<h2>Barba</h2>
+					<img src="docinhos.jpg">
+					<p class="produto-descricao">Docinhos gourmet, um combo dos nossos melhores e mais famósos doces gourmet.</p>
+					<p class="produto-preco">R$ 150,00 o cento</p>
+				</li>
+				<li>
+					<h2>Cabelo e Barba</h2>
+					<img src="torta de maçã.jpg">
+					<p class="produto-descricao">Torta de maçã, a torta mais famosa da nossa confeitaria, feita com muito amor e carinho!</p>
+					<p class="produto-preco">R$ 100,00</p>
+				</li>
+			</ul>
+		</main>
+		<footer>
+			<img src="logo.png">
+			<p class="copyright">&copy; Alanna 2°B, 2024</p>
+		</footer>
+	</body>
 </html>
